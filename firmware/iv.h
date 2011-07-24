@@ -132,6 +132,8 @@ void spi_xfer(uint8_t c);
 #define BUTTON2 PB0
 #define BUTTON3 PD4
 
+#define CAPIN PC2
+
 #define VFDSWITCH PD3
 #define VFDSWITCH_DDR DDRD
 #define VFDSWITCH_PORT PORTD
@@ -147,6 +149,10 @@ void spi_xfer(uint8_t c);
 #define VFDBLANK PC3
 #define VFDBLANK_DDR DDRC
 #define VFDBLANK_PORT PORTC
+
+#define CAPOUT PC1
+#define CAPOUT_DDR DDRC
+#define CAPOUT_PORT PORTC
 
 #define ALARM PD2
 #define ALARM_DDR DDRD
